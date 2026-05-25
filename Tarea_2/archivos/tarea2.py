@@ -32,3 +32,6 @@ bodePlot(TF, fig_id=1)
 pzmap(TF, fig_id=2)
 
 GroupDelay(TF, fig_id=3)
+
+
+
