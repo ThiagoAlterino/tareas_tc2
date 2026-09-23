@@ -1,0 +1,19 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\users\thiago\Documents\UTN\2026\Teoria_De_Circuitos_2\tareas_tc2\Tarea_8\Archivos\Circuitos.net
+Start Time: Tue Sep 22 21:06:30 2026
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node foster_serie is floating.
+WARNING: Node cauer_cero is floating.
+WARNING: Node n004 is floating.
+
+.OP point found by inspection.
+.OP point found by inspection.
+Total elapsed time: 0.058 seconds.
+
+Files loaded:
+C:\users\thiago\Documents\UTN\2026\Teoria_De_Circuitos_2\tareas_tc2\Tarea_8\Archivos\Circuitos.net
+
