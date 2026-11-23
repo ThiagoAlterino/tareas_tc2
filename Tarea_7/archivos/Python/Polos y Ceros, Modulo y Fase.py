@@ -10,15 +10,15 @@ import matplotlib.pyplot as plt
 from scipy import signal
 
 # Coeficientes del sistema H7(z)[cite: 1]
-b = [1, 0, 0, 0, 0, 0, 0, 0, 1]             # Numerador
-a = [1, 0, 0, 0, 0, 0, 0, 0, 0]     # Denominador
+b = [1,-1]             # Numerador
+a = [1]     # Denominador
 
 # Polos y ceros
 zeros = np.roots(b)
 poles = np.roots(a)
 
 # Respuesta en frecuencia
-w, h = signal.freqz(b, a, worN=1000)
+w, h = signal.freqz(b, a, worN=1000, whole=True)
 frecuencia_normalizada = w / np.pi  # De 0 a pi (normalizado)
 
 # ==========================================
